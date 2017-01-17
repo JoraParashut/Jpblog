@@ -1,0 +1,453 @@
+/*
+Theme Name: myblogV2
+Theme URI: don't give a fuck, at least for a moment
+Description: thi is a greatest theme of wordpress ever seen!
+Author: Jora Parashut
+Author URI: 
+Version:2.0
+.
+License GNL GPN
+.
+*/
+
+body {
+  margin: 0;
+  padding: 0; 
+  line-height: 1.7;
+  font-size: 1.1em;
+  font-family: 'Exo 2', sans-serif;}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none;
+  color: grey; }
+
+p {
+  text-indent: 20px; }
+
+.headlines {
+  color: grey;
+   }
+
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2em;
+  border-bottom: 1px solid lightgrey; 
+  }
+
+.header_item_container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:url(img/ignasi.png);
+  
+   }
+
+.header_logo {
+  display: flex;
+  width: 20%;
+  height: 100%;
+  margin-right: 2%; 
+  }
+
+.header_logo img {
+  width: 100%;
+  height: 100%; }
+
+.main_headline{
+  margin-left: 20px;
+}
+
+.gradient {
+  width: 100%;
+  height: 7px;
+  
+  display: flex; }
+
+.cell {
+  width: 160px;
+  height: 100%;
+  display: inline-block; }
+
+.red {
+  background-color: #E75239; }
+
+.orange {
+  background-color: #FE961C; }
+
+.softorange {
+  background-color: #FECC27; }
+
+.yellow {
+  background-color: #FCE62F; }
+
+.acidgreen {
+  background-color: #CDE35B; }
+
+.green {
+  background-color: #81CA33; }
+
+.azure {
+  background-color: #41BECE; }
+
+.blue {
+  background-color: #0499D6; }
+
+.nav {
+  width: 70%;
+  height: 60px; }
+
+.nav_list {
+  width: 100%;
+  height: 100%;
+  display: flex; }
+
+.nav_item {
+  width: 200px;
+  height: 100%;
+  display: inline-block; }
+
+.nav_item a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8em;
+  font-family: 'Maven Pro', sans-serif; }
+
+.nav_item a:active {
+  color: #F55D2D; }
+
+.nav_item:hover a {
+  color: #F55D2D; }
+.back{
+  background:url(img/back.jpg);
+}
+.homepage_main {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+   }
+
+.news_container {
+  display: flex;
+  width: 70%;
+  flex-direction: column; }
+
+.news {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 40px;
+  border-bottom: 1px solid grey;
+  margin-bottom: 20px; }
+
+.news_headline {
+  width: 100%;
+  color: grey; }
+
+.news_item_info {
+  width: 80%;
+  background-color: #F55D2D;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 5px; }
+
+.news_item_info_svg_container {
+  width: 35px;
+  height: 30px;
+  background-color: white;
+  margin-right: 20px;
+  border: 2px solid #F55D2D;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.news_item_info_svg_container img {
+  width: 30px;
+  height: 25px; }
+
+.news_item_info_text_left {
+  flex-grow: 1; }
+
+.news_item_info_text_right {
+  margin-right: 20px; }
+
+.news_image {
+  width: 100%;
+  margin-top: 20px; }
+
+.news_image img {
+  max-width: 100%;
+  height: auto;
+  max-height: 100%; }
+
+/*.textblock {
+  font-size: 1.3em; }*/
+
+.button {
+  width: 15%;
+  height: 20px;
+  border: 1px solid #F55D2D; }
+
+.button a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.button a:hover {
+  background-color: #F55D2D;
+  color: white; }
+
+.homepage_aside {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Maven Pro', sans-serif; }
+
+.searchForm {
+  position: relative;
+  display: inline-flex;
+  margin: 30px 0; }
+
+.search_form_input {
+  width: 250px;
+  height: 30px;
+  padding-left: 10px;
+  box-sizing: border-box;
+  border: 1px solid #F55D2D;
+  border-radius: 5px 0  0 5px;
+  outline: none;
+  color: grey; }
+
+.search_button {
+  width: 40px;
+  height: 30px;
+  border: 1px solid #F55D2D;
+  background: #F55D2D;
+  border-left: none;
+  text-align: center;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  outline: none; }
+
+.search_button img {
+  width: 100%;
+  height: 100%;
+   }
+
+.categories {
+  width: 100%; }
+
+.categories_item {
+  width: 30%;
+  height: 30px; }
+
+.categories_item a:hover, .recentPosts_item a:hover {
+  color: #F55D2D; }
+
+.recentPosts {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-bottom: 30px; }
+
+.recentPosts_item {
+  margin-top: 10px; }
+
+.aside_headline {
+  color: grey; }
+
+.footer {
+  width: 100%;
+  background:url(img/ignasi.png);
+  }
+
+.footer_item {
+  width: 70%;
+  margin: 0 auto;
+  padding: 20px;
+  color: grey;
+  font-family: 'Maven Pro', sans-serif; }
+
+
+
+/* manual styles for wordpress*/
+.menu-main-menu-container{
+  width: 70%;
+  height: 60px;
+}
+.nav_list li{
+  width: 200px;
+  height: 100%;
+  display: inline-block; 
+}
+.nav_list li a{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8em;
+  font-family: 'Maven Pro', sans-serif; 
+}
+.nav_list li a:active{
+  color: #F55D2D; 
+}
+.nav_list li a:hover{
+  color: #F55D2D;
+}
+
+.hidden{
+  display: none;
+}
+
+/*styles for categories list */
+
+.cat-item{
+  margin-top: 5%;
+}
+.cat-item a:hover{
+  color: #F55D2D;
+}
+
+/*styles for recent posts a */
+
+.rs_posts {
+  display: flex;
+  flex-direction: column;
+  color: red;
+}
+.rs_posts a{
+  margin-top: 5%;
+}
+.rs_posts a:hover{
+  color: #F55D2D;
+}
+/* styles for infobar categories*/
+.news_item_info_text_right a{
+  color: white;
+}
+
+/* styles for wp_pagenavi */
+
+.wp-pagenavi{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  
+}
+.wp-pagenavi .pages, {
+  border: 1px solid #F55D2D;
+}
+.wp-pagenavi .current{
+  border: 1px solid red;
+}
+
+.alignleft{
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+.alignright{
+  float: right;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+.aligncenter{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.img-responsive{
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+.more-link{
+  display: block;
+  margin-top: 20px;
+  border:1px solid #F55D2D;
+  border-radius: 5px;
+  width: 150px;
+  box-sizing: border-box;
+  text-align: center;
+  text-indent: 0;
+}
+.more-link:hover{
+  color:#F55D2D ;
+}
+/*contacts page styles*/
+.contacts_wrap{
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+.contacts_form_container{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  margin-bottom: 20px; }
+
+.my_social_contacts{
+  width: 100%;
+  margin-bottom: 20px;
+  
+}
+.my_social_contacts_item{
+  display: flex;
+  margin-bottom: 20px;
+}
+.contacts_icon{
+  width: 100px
+  height: 100px;
+}
+.contacts_icon img{
+ max-width: 100px;
+}
+.contacts_description{
+  margin-left: 30px;
+}
+/*style for about page, moved from external .css*/
+.about_container {
+  display: flex;
+  width: 70%;
+  flex-direction: column;
+  margin-bottom: 20px; }
+
+  /* styles for portfolio page, also moved from external .css*/
+  .portfolio_list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 20px; }
+
+.portfolio_item {
+  width: 100%; 
+  }
+
+.portfolio_item a { /*add here width of image a later*/
+  float: left;
+  margin-right: 20px; }
+
+.portfolio_item a img {
+  width: 100%;
+  max-width: 100%;
+  height: auto; }
